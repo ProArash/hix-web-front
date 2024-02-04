@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <title>ODDO - قالب HTML فرم ثبت نام و ورود اُددو</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- External CSS libraries -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" >
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body id="top" dir="rtl">
+<div class="page_loader"></div>
+
+<!-- Login 4 start -->
+<div class="login-4">
+    <div class="container-fluid">
+        <div class="row login-box">
+            <div class="col-lg-6 form-section">
+                <div class="form-inner">
+                    <a href="login.html" class="logo">
+                        <img src="assets/img/logos/logo.png" alt="logo">
+                    </a>
+                    <h3>ایجاد حساب کاربری</h3>
+                    <div class="alert alert-dismissible fade show" role="alert" id="alert-box">
+                       <!-- alert message -->
+                    </div>
+                    <form id="register-form" action="#" method="POST">
+						<div class="form-group position-relative clearfix">
+                            <input id="name" name="name" type="text" class="form-control" placeholder="نام کاربر">
+                        </div>
+                        <!-- <div class="form-group position-relative clearfix">
+                            <input id="phone-number" name="phone" type="text" class="form-control" placeholder="شماره موبایل">
+                        </div> -->
+
+                        <div class="form-group clearfix position-relative password-wrapper">
+                            <input id="email" name="email" type="text" class="form-control" autocomplete="off" placeholder ="ایمیل">
+                        </div>
+
+
+                        <div class="form-group clearfix position-relative password-wrapper">
+                            <input id="password" name="password" type="password" class="form-control" autocomplete="off" placeholder="رمز عبور">
+                            <i class="fa fa-eye password-indicator"></i>
+                        </div>
+                        
+                        <div class="form-group clearfix position-relative password-wrapper">
+                            <input id="repeat-password" name="repeat-password" type="password" class="form-control" autocomplete="off" placeholder="تکرار رمز ورود">
+                            <i class="fa fa-eye password-indicator"></i>
+                        </div>
+                        
+                       
+                        <div class="form-group checkbox clearfix">
+                            <div class="clearfix float-end">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="rememberme">
+                                    <label class="form-check-label" for="rememberme">
+                                        من با شرایط استفاده از خدمات موافقم.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <button type="submit" class="btn btn-primary btn-lg btn-theme" id="register-btn">ثبت نام</button>
+                        </div>
+                        <div class="extra-login clearfix">
+                            <span>یا وارد شوید با</span>
+                        </div>
+                    </form>
+
+                    <div class="clearfix"></div>
+                    <p>حساب کاربری دارید؟ <a href="login.html">از اینجا وارد شوید</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 bg-img clip-home"></div>
+        </div>
+    </div>
+</div>
+<!-- Login 4 end -->
+
+<!-- External JS libraries -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="https://unpkg.com/axios@0.21.0/dist/axios.min.js"></script>
+<script src="register.js"></script>
+<!-- Custom JS Script -->
+
+</body>
+
+</html>

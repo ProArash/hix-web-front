@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <title>ODDO - قالب HTML فرم ثبت نام و ورود اُددو</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- External CSS libraries -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" >
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body id="top" dir="rtl">
+<div class="page_loader"></div>
+
+<!-- Login 4 start -->
+<div class="login-4">
+    <div class="container-fluid">
+        <div class="row login-box">
+            <div class="col-lg-6 form-section">
+                <div class="form-inner">
+                    <a href="login.html" class="logo">
+                        <img src="assets/img/logos/logo.png" alt="logo">
+                    </a>
+                    <h3>
+                        ورود به حساب کاربری
+                    </h3>
+                    <div id="alert-box" class="alert alert-dismissible fade show" role="alert">
+                        
+                    </div>
+                    <form action="#" method="POST" id="login-form">
+                        <div class="form-group position-relative clearfix">
+                            <input id="email-address" name="email" type="text" class="form-control" placeholder="ایمیل" aria-label="email-address">
+                        </div>
+                        <div class="form-group clearfix position-relative password-wrapper">
+                            <input name="password" id="password" type="password" class="form-control" autocomplete="off" placeholder="رمز عبور" aria-label="Password">
+                            <i class="fa fa-eye password-indicator"></i>
+                        </div>
+                        <div class="form-group mb-0 clearfix">
+                            <button type="submit" id="login-submit" class="btn btn-lg btn-primary btn-theme">ورود</button>
+                            <a href="forgot-password.html" class="forgot-password float-start">فراموشی رمز عبور</a>
+                        </div>
+                       
+                        <div class="clearfix mt-4"></div>
+                        
+                    </form>
+                    <div class="clearfix"></div>
+                    <p>حساب کاربری ندارید؟ <a href="register.html" class="thembo">از اینجا ثبت نام کنید</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 bg-img clip-home h-100"></div>
+        </div>
+    </div>
+</div>
+<!-- Login 4 end -->
+
+<!-- External JS libraries -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="https://unpkg.com/axios@0.21.0/dist/axios.min.js"></script>
+<script src="login.js"></script>
+<!-- Custom JS Script -->
+</body>
+
+</html>
